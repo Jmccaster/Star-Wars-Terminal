@@ -1,0 +1,368 @@
+1. Set the Scene:
+
+Create a directory called death_star, and make the following files inside of it: darth_vader.txt, princess_leia.txt, storm_trooper.txt:
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2
+$ cd galaxy-far-far-away/
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ mkdir death_star
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ cd death_star/
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/death_star
+$ touch dath_vader.txt princess_leia.txt storm_trooper.txt
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/death_star
+$ ls
+dath_vader.txt  princess_leia.txt  storm_trooper.txt
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/death_star
+$ ls
+darth_vader.txt  princess_leia.txt  storm_trooper.txt
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/death_star
+$ cd ..
+
+In galaxy-far-far-away, make a directory named tatooineand create the following files in it: luke.txt, ben_kenobi.txt:
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ mkdir tatooine
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ cd tatooine/
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/tatooine
+$ touch luke.txt ben_kenobi.txt
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/tatooine
+$ ls
+ben_kenobi.txt  luke.txt
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/tatooine
+$ cd ..
+
+Inside of tatooinemake a directory called millenium_falcon, and in it create: han_solo.txt, chewbaca.txt:
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ mkdir millenium_falcon
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ cd millenium_falcon/
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/millenium_falcon
+$ touch han_solo.txt chewbacca.txt
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/millenium_falcon
+$ ls
+chewbacca.txt  han_solo.txt
+
+2. MV- Rename
+Rename ben_kenobi.txtto obi_wan.txt:
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ cd tatooine/
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/tatooine
+$ mv ben_kenobi.txt obi_wan.txt
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/tatooine
+$ ls
+luke.txt  obi_wan.txt
+
+3. Cp- copy
+Copy storm_trooper.txtfrom death_starto tatooine:
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ cp death_star/storm_trooper.txt tatooine/
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ cd tatooine/
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/tatooine
+$ ls
+luke.txt  obi_wan.txt  storm_trooper.txt
+
+4. MV- Move
+Move luke.txtand obi_wan.txtto the millenium_falcon:
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ mv tatooine/obi_wan.txt millenium_falcon/obi_wan.txt
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ cd millenium_falcon/
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/millenium_falcon
+$ ls
+chewbacca.txt  han_solo.txt  obi_wan.txt
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/millenium_falcon
+$ cd ..
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ mv tatooine/luke.txt millenium_falcon/luke.txt
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ cd
+
+mccasterj1@nku20R0158 MINGW64 ~
+$ cd desktop/dev/labs/week_1/day_2
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2
+$ cd galaxy-far-far-away
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ cd millenium_falcon/
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/millenium_falcon
+$ ls
+chewbacca.txt  han_solo.txt  luke.txt  obi_wan.txt
+
+Move millenium_falconout of tatooineand into galaxy-far-far-away:
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ mv tatooine/millenium_falcon ../galaxy-far-far-away
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ ls
+death_star/  galaxy-far-far-awaycalled-commands.txt.txt  millenium_falcon/  tatooine/
+
+Move millenium_falcon into death_star:
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ mv millenium_falcon/ death_star/
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ ls
+death_star/  galaxy-far-far-awaycalled-commands.txt.txt  tatooine/
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ cd death_star/
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/death_star
+$ ls
+darth_vader.txt  millenium_falcon/  princess_leia.txt  storm_trooper.txt
+
+Move princess_leia.txt into the millenium_falcon:
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ mv death_star/princess_leia.txt death_star/millenium_falcon/princess.leia.txt
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ cd death_star/
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/death_star
+$ cd millenium_falcon/
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/death_star/millenium_falcon
+$ ls
+chewbacca.txt  han_solo.txt  luke.txt  obi_wan.txt  princess.leia.txt
+
+5. Rm- remove
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/death_star/millenium_falcon
+$ ls
+chewbacca.txt  han_solo.txt  luke.txt  obi_wan.txt  princess.leia.txt
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/death_star/millenium_falcon
+$ rm obi_wan.txt
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/death_star/millenium_falcon
+$ ls
+chewbacca.txt  han_solo.txt  luke.txt  princess.leia.txt
+
+6. All together:
+
+In galaxy-far-far-away, make a directory called yavin_4:
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ mkdir yavin_4
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ ls
+death_star/  galaxy-far-far-awaycalled-commands.txt.txt  tatooine/  yavin_4/
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ cd yavin_4/
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/yavin_4
+$ cd ..
+
+Move the millenium_falconout of the death_starand into yavin_4:
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ mv death_star/millenium_falcon/ yavin_4/millenium_falcon
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ cd yavin_4/
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/yavin_4
+$ ls
+millenium_falcon/
+
+Make a directory in yavin_4called x_wing:
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/yavin_4
+$ mkdir x_wing
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/yavin_4
+$ cd x_wing/
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/yavin_4/x_wing
+$ cd ..
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/yavin_4
+$ ls
+millenium_falcon/  x_wing/
+
+Move princess_leia.txtto yavin_4and luke.txtto x_wing:
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ mv yavin_4/millenium_falcon/princess.leia.txt yavin_4/princess.leia
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ cd yavin_4/
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/yavin_4
+$ ls
+millenium_falcon/  princess.leia  x_wing/
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/yavin_4
+$ mv luke.txt x_wing/luke.txt
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/yavin_4
+$ cd x_wing/
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/yavin_4/x_wing
+$ ls
+luke.txt
+
+Move the millenium_falconand x_wingout of yavin_4and into galaxy-far-far-away:
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ mv yavin_4/millenium_falcon/ ../galaxy-far-far-away
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ mv yavin_4/x_wing/ ../galaxy-far-far-away
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ ls
+death_star/                                 millenium_falcon/  x_wing/
+galaxy-far-far-awaycalled-commands.txt.txt  tatooine/          yavin_4/
+
+In death_star, create directories for tie_fighter_1, tie_fighter_2and tie_fighter_3:
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ cd death_star/ && mkdir tie_fighter_1 tie_fighter_2 tie_fighter_3
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/death_star
+$ ls
+darth_vader.txt  storm_trooper.txt  tie_fighter_1/  tie_fighter_2/  tie_fighter_3/
+
+Move darth_vader.txtinto tie_fighter_1:
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/death_star
+$ mv darth_vader.txt tie_fighter_1/darth_vader.txt
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/death_star
+$ cd tie_fighter_1
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/death_star/tie_fighter_1
+$ ls
+darth_vader.txt
+
+
+Make a copy of storm_trooper.txtin both tie_fighter_2and tie_fighter_3:
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/death_star
+$ cp storm_trooper.txt tie_fighter_2 && cp storm_trooper.txt tie_fighter_3
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/death_star
+$ cd tie_fighter_2
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/death_star/tie_fighter_2
+$ ls
+storm_trooper.txt
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/death_star/tie_fighter_2
+$ cd ..
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/death_star
+$ cd tie_fighter_3
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/death_star/tie_fighter_3
+$ ls
+storm_trooper.txt
+
+Move all of the tie_fightersout of the death_starand into galaxy-far-far-away:
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ mv death_star/tie_fighter_1 ../galaxy-far-far-away
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ mv death_star/tie_fighter_2 ../galaxy-far-far-away
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ mv death_star/tie_fighter_3 ../galaxy-far-far-away
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ ls
+death_star/                                 tatooine/       tie_fighter_3/
+galaxy-far-far-awaycalled-commands.txt.txt  tie_fighter_1/  x_wing/
+millenium_falcon/                           tie_fighter_2/  yavin_4/
+
+7. rm -r: remove directories and everything they contain:
+
+Remove tie_fighter_2and tie_fighter_3:
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ rm -r tie_fighter_2 tie_fighter_3
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ ls
+death_star/                                 millenium_falcon/  tie_fighter_1/  yavin_4/
+galaxy-far-far-awaycalled-commands.txt.txt  tatooine/          x_wing/
+
+8.
+
+Touch a file in x_wingcalled the_force.txt:
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ cd x_wing/
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/x_wing
+$ touch the_force.txt
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/x_wing
+$ ls
+luke.txt  the_force.txt
+
+
+Destroy the death_starand anyone inside of it:
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ ls
+death_star/                                 millenium_falcon/  tie_fighter_1/  yavin_4/
+galaxy-far-far-awaycalled-commands.txt.txt  tatooine/          x_wing/
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ cd death_star/
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/death_star
+$ ls
+storm_trooper.txt
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/death_star
+$ cd ..
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ rm -r death_star/
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ ls
+galaxy-far-far-awaycalled-commands.txt.txt  tatooine/       x_wing/
+millenium_falcon/  
+
+Return x_wing and the millenium_falconto yavin_4:
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ mv x_wing/ yavin_4/
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ ls
+galaxy-far-far-awaycalled-commands.txt.txt  tatooine/       yavin_4/
+millenium_falcon/                           tie_fighter_1/
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ mv millenium_falcon/ yavin_4/
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away
+$ cd yavin_4/
+
+mccasterj1@nku20R0158 MINGW64 ~/desktop/dev/labs/week_1/day_2/galaxy-far-far-away/yavin_4
+$ ls
+millenium_falcon/  princess.leia  x_wing/
+
+
+
+
+
+
